@@ -2,6 +2,11 @@
   "name": "@karatelabs/karate",
   "version": "0.1.0",
   "description": "NPM for Karate",
+  "homepage": "https://github.com/karatelabs/karate-npm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karatelabs/karate-npm.git"
+  },  
   "main": "index.js",
   "scripts": {
     "test": "node karate/test.js",
