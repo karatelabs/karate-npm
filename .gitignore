@@ -1,0 +1,7 @@
+.DS_Store
+*.tgz
+package-lock.json
+target/
+node_modules/
+.jbang/
+
