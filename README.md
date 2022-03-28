@@ -1,4 +1,4 @@
-# karate-npm
+# @karatelabs/karate
 
 ## Usage
 Given this script `karate/test.js`:
