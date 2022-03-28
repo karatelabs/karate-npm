@@ -5,7 +5,7 @@ Given this script `karate/test.js`:
 
 ```js
 #! /usr/bin/env node
-const karate = require('karate-npm');
+const karate = require('@karatelabs/karate');
 karate.run();
 ```
 
@@ -17,7 +17,7 @@ And in `package.json`:
 		"test": "node karate/test.js"
 	},
 	"devDependencies": {
-		"karate-npm": "0.1.0"
+		"@karatelabs/karate": "0.1.0"
 	}
 }
 ```

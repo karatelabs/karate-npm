@@ -1,5 +1,5 @@
 {
-  "name": "karate-npm",
+  "name": "@karatelabs/karate",
   "version": "0.1.0",
   "description": "NPM for Karate",
   "main": "index.js",
