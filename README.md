@@ -22,6 +22,8 @@ And in `package.json`:
 }
 ```
 
+Make sure you run `npm install` once. This will install [jbang](https://www.jbang.dev/) and other dependencies if needed.
+
 And to run a single test:
 
 ```
