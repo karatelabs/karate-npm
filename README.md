@@ -13,12 +13,12 @@ And in `package.json`:
 
 ```json
 {
-	"scripts": {
-		"test": "node karate/test.js"
-	},
-	"devDependencies": {
-		"@karatelabs/karate": "0.1.0"
-	}
+  "scripts": {
+    "test": "node karate/test.js"
+  },
+  "devDependencies": {
+    "@karatelabs/karate": "0.1.0"
+  }
 }
 ```
 
