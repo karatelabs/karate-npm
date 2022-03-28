@@ -17,7 +17,7 @@ And in `package.json`:
     "test": "node karate/test.js"
   },
   "devDependencies": {
-    "@karatelabs/karate": "0.1.0"
+    "@karatelabs/karate": "^0.1.0"
   }
 }
 ```
