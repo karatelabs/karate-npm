@@ -1,4 +1,5 @@
 # @karatelabs/karate
+Seamlessly use the power of [Karate](https://github.com/karatelabs/karate) from Node / JS projects.
 
 ## Usage
 Given this script `test.js`:
@@ -22,7 +23,7 @@ And in `package.json`:
 }
 ```
 
-Make sure you run `npm install` once. This will install [jbang](https://www.jbang.dev/) and other Karate dependencies if needed via [`jbang-npm`](https://github.com/jbangdev/jbang-npm).
+When you run `npm install`, [jbang](https://www.jbang.dev/) and other Karate dependencies needed will be installed via [`jbang-npm`](https://github.com/jbangdev/jbang-npm).
 
 And to run a single test:
 
