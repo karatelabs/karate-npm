@@ -9,13 +9,12 @@
   },  
   "main": "index.js",
   "scripts": {
-    "test": "node karate/test.js",
+    "test": "node test.js",
     "preinstall": "node preinstall.js"
   },
   "author": "Peter Thomas",
   "license": "MIT",
   "dependencies": {
-    "shelljs": "^0.8.5",
-    "yargs": "^17.4.0"
+    "@jbang/jbang": "^0.1.0"
   }
 }

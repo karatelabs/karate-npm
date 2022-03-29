@@ -3,5 +3,3 @@
 package-lock.json
 target/
 node_modules/
-.jbang/
-

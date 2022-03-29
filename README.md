@@ -1,12 +1,12 @@
 # @karatelabs/karate
 
 ## Usage
-Given this script `karate/test.js`:
+Given this script `test.js`:
 
 ```js
 #! /usr/bin/env node
 const karate = require('@karatelabs/karate');
-karate.run();
+karate.exec();
 ```
 
 And in `package.json`:
@@ -14,15 +14,15 @@ And in `package.json`:
 ```json
 {
   "scripts": {
-    "test": "node karate/test.js"
+    "test": "node test.js"
   },
   "devDependencies": {
-    "@karatelabs/karate": "^0.1.0"
+    "@karatelabs/karate": "^0.2.0"
   }
 }
 ```
 
-Make sure you run `npm install` once. This will install [jbang](https://www.jbang.dev/) and other dependencies if needed.
+Make sure you run `npm install` once. This will install [jbang](https://www.jbang.dev/) and other Karate dependencies if needed.
 
 And to run a single test:
 

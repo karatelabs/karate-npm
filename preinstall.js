@@ -1,5 +1,4 @@
-const karate = require('./index');
-console.log('pre-installing jbang ...');
-karate.jbang('app setup');
-karate.jbang(karate.executable);
-console.log('pre-install of jbang complete');
+const karate = require('./karate');
+console.log('pre-installing karate ...');
+karate.exec('');
+console.log('pre-install of karate complete');
