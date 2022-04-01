@@ -15,6 +15,6 @@
   "author": "Peter Thomas",
   "license": "MIT",
   "dependencies": {
-    "@jbang/jbang": "^0.1.0"
+    "@jbangdev/jbang": "^0.1.4"
   }
 }

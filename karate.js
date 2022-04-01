@@ -1,4 +1,4 @@
-const jbang = require('@jbang/jbang');
+const jbang = require('@jbangdev/jbang');
 const karate = {};
 karate.version = '1.2.0.RC5';
 karate.executable = 'com.intuit.karate:karate-core:' + karate.version + ':all';
