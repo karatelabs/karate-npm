@@ -1,13 +1,13 @@
 {
   "name": "@karatelabs/karate",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "NPM for Karate",
   "homepage": "https://github.com/karatelabs/karate-npm",
   "repository": {
     "type": "git",
     "url": "https://github.com/karatelabs/karate-npm.git"
   },  
-  "main": "index.js",
+  "main": "karate.js",
   "scripts": {
     "test": "node test.js",
     "preinstall": "node preinstall.js"
