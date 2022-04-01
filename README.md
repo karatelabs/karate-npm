@@ -10,7 +10,7 @@ const karate = require('@karatelabs/karate');
 karate.exec();
 ```
 
-And in `package.json`:
+And in `package.json` (use the latest version from [npm](https://www.npmjs.com/package/@karatelabs/karate)):
 
 ```json
 {
@@ -18,7 +18,7 @@ And in `package.json`:
     "test": "node test.js"
   },
   "devDependencies": {
-    "@karatelabs/karate": "^0.2.0"
+    "@karatelabs/karate": "^0.2.1"
   }
 }
 ```
