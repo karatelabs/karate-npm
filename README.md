@@ -37,6 +37,24 @@ Or to run all tests in a folder:
 npm run test karate
 ```
 
+## Known Issues
+Users on Windows have reported [issues](https://github.com/karatelabs/karate-npm/issues/2) such as the `npm install` failing to complete and without any errors shown.
+
+Please do contribute if you can and improve how JavaScript projects can integrate smoothly with Java projects !
+
+As a workaround, please [install JBang manually](https://www.jbang.dev/documentation/guide/latest/installation.html) and re-try the `npm install` step.
+
+## Setting Karate Version
+> This will be available in version 0.2.2 onwards
+To use a specific version of Karate, just set `karate.version` before calling `karate.exec()`:
+
+```js
+#! /usr/bin/env node
+const karate = require('@karatelabs/karate');
+karate.version = '1.2.0';
+karate.exec();
+```
+
 ## CLI Reference
 All Karate capabilities can be invoked by the command-line.
 
