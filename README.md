@@ -36,3 +36,13 @@ Or to run all tests in a folder:
 ```
 npm run test karate
 ```
+
+## CLI Reference
+All Karate capabilities can be invoked by the command-line.
+
+The most common needs are to:
+
+* run feature-file(s) or all feature-files in a folder as Karate tests 
+* start an API mock-server
+
+The complete documentation can be found [here](https://github.com/karatelabs/karate/tree/master/karate-netty#usage).
