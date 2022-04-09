@@ -1,7 +1,12 @@
 const jbang = require('@jbangdev/jbang');
 const karate = {};
 karate.version = 'LATEST';
-karate.executable = () => 'com.intuit.karate:karate-core:' + karate.version + ':all';
+karate.config = {};
+karate.config;
+karate.executable = function () {
+	let prefix = karate.config.dir ? '-Dkarate.config.dir=' + karate.config.dir + ' '  : '';
+	return prefix + 'com.intuit.karate:karate-core:' + karate.version + ':all';
+};
 karate.exec = function (args) {
 	if (!args) {
 		args = process.argv.slice(2).join(' ');
