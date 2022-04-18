@@ -18,7 +18,7 @@ And in `package.json` (use the latest version from [npm](https://www.npmjs.com/p
     "test": "node test.js"
   },
   "devDependencies": {
-    "@karatelabs/karate": "^0.2.1"
+    "@karatelabs/karate": "^0.2.2"
   }
 }
 ```
@@ -46,8 +46,6 @@ As a workaround, please [install JBang manually](https://www.jbang.dev/documenta
 
 ## Setting Karate Version
 
-> This will be available in version 0.2.2 onwards
-
 To use a specific version of Karate, just set `karate.version` before calling `karate.exec()`:
 
 ```js
@@ -68,8 +66,6 @@ The most common needs are to:
 The complete documentation can be found [here](https://github.com/karatelabs/karate/tree/master/karate-netty#usage).
 
 ### `karate-config.js`
-
-> This will be available in version 0.2.2 onwards
 
 Karate will look for a `karate-config.js` file in the current working directory.
 
