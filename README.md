@@ -65,6 +65,8 @@ The most common needs are to:
 
 The complete documentation can be found [here](https://github.com/karatelabs/karate/tree/master/karate-netty#usage).
 
+You can also use the `--help` command-line option to see all the possible options and brief descriptions on the console.
+
 ### `karate-config.js`
 
 Karate will look for a `karate-config.js` file in the current working directory.
