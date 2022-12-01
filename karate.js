@@ -7,9 +7,7 @@ karate.executable = function () {
 	return prefix + 'com.intuit.karate:karate-core:' + karate.version + ':all';
 };
 karate.exec = function (args) {
-	if (!args) {
-		args = process.argv.slice(2).join(' ');
-	}
+	args = (!args ? '' : args + ' ') + process.argv.slice(2).join(' ');
 	process.env['KARATE_META'] = 'npm:' + process.env.npm_package_version;
 	jbang.exec(karate.executable() + ' ' + args);
 };
