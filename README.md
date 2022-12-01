@@ -73,6 +73,8 @@ Karate will look for a `karate-config.js` file in the current working directory.
 
 But if you need to point to a different directory, you can set `karate.config.dir` before calling `karate.exec()`
 
+CLI options can be passed as a string to the `karate.exec('-T=5')` method.
+
 ```js
 #! /usr/bin/env node
 const karate = require('@karatelabs/karate');
