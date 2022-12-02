@@ -73,11 +73,14 @@ Karate will look for a `karate-config.js` file in the current working directory.
 
 But if you need to point to a different directory, you can set `karate.config.dir` before calling `karate.exec()`
 
+To pass arguments to the JVM use the jvm object `karate.jvm.args`
+
 CLI options can be passed as a string to the `karate.exec('-T=5')` method.
 
 ```js
 #! /usr/bin/env node
 const karate = require('@karatelabs/karate');
 karate.config.dir = '/users/myname/some/dir';
-karate.exec();
+karate.jvm.args = `-Dlogback.configurationFile=${__dirname}/logback-test.xml`;
+karate.exec("-T=5");
 ```
