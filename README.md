@@ -84,3 +84,7 @@ karate.config.dir = '/users/myname/some/dir';
 karate.jvm.args = `-Dlogback.configurationFile=${__dirname}/logback-test.xml`;
 karate.exec("-T=5");
 ```
+
+## Custom Java Classpath
+
+For teams that want to customize the Java classpath by adding libraries or custom-code, please refer to the wiki: [Custom Fat JAR](https://github.com/karatelabs/karate/wiki/Get-Started:-Other-Runtime-Options#custom-fat-jar). This may be easier to achieve by using Maven to prepare a Docker image, which can then be used by teams on the command-line without needing NPM, Java or Karate - and only Docker is a pre-requisite.
