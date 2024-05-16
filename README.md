@@ -69,7 +69,7 @@ You can also use the `--help` command-line option to see all the possible option
 
 ### `karate-config.js`
 
-Karate will look for a `karate-config.js` file in the current working directory.
+Karate will look for a [`karate-config.js`](https://github.com/karatelabs/karate#configuration) file in the current working directory.
 
 But if you need to point to a different directory, you can set `karate.config.dir` before calling `karate.exec()`
 
@@ -88,3 +88,5 @@ karate.exec("-T=5");
 ## Custom Java Classpath
 
 For teams that want to customize the Java classpath by adding libraries or custom-code, please refer to the wiki: [Custom Fat JAR](https://github.com/karatelabs/karate/wiki/Get-Started:-Other-Runtime-Options#custom-fat-jar). This may be easier to achieve by using Maven to prepare a Docker image, which can then be used by teams on the command-line without needing NPM, Java or Karate - and only Docker is a pre-requisite.
+
+If you want to use additional Java libraries or custom code *and* avoid Maven and Java dev-tools, refer to this example: [Using Java Libraries with NPM](https://github.com/karatelabs/karate-examples/blob/main/jbang-npm/README.md).
