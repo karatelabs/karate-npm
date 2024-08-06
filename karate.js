@@ -5,7 +5,7 @@ karate.config = {};
 karate.jvm = {args:''};
 karate.executable = function () {
 	let prefix = karate.config.dir ? '-Dkarate.config.dir=' + karate.config.dir + ' '  : '';
-	return prefix + 'com.intuit.karate:karate-core:' + karate.version + ':all';
+	return prefix + 'io.karatelabs:karate-core:' + karate.version + ':all';
 };
 karate.exec = function (args) {
 	args = (!args ? '' : args + ' ') + process.argv.slice(2).join(' ');
