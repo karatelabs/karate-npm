@@ -51,7 +51,7 @@ To use a specific version of Karate, just set `karate.version` before calling `k
 ```js
 #! /usr/bin/env node
 const karate = require('@karatelabs/karate');
-karate.version = '1.2.0';
+karate.version = '1.5.0';
 karate.exec();
 ```
 
